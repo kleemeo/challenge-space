@@ -4,7 +4,7 @@ import Card from './components/Card';
 
 
 export default function App() {
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_KEY = process.env.PREACT_APP_API_KEY;
   
   const url = `https://api.nasa.gov/EPIC/api/natural/images?api_key=${API_KEY}`;
 
