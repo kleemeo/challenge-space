@@ -13,3 +13,5 @@ This site was built using API from NASA: [EPIC DAILY “BLUE MARBLE” API](http
 - Icons: Fontawesome
 
 Please feel free to reach out with any questions! 😊
+
+-Kelvin
