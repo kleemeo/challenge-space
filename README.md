@@ -1,6 +1,9 @@
 # Internship Challenge Project 2022
 
-This site was built using API from NASA: [EPIC DAILY “BLUE MARBLE” API](https://epic.gsfc.nasa.gov/about/api/).
+[Live demo: https://shop-challenge22.netlify.app](https://shop-challenge22.netlify.app)
+
+This site was built using the NASA API [EPIC DAILY “BLUE MARBLE” API](https://epic.gsfc.nasa.gov/about/api/)
+
 
 ### Javascript framework: [Preact](https://preactjs.com/)
 
