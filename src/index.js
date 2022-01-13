@@ -2,7 +2,9 @@ import { useEffect, useState } from 'preact/hooks';
 import './style';
 import Card from './components/Card';
 
-const url = `https://api.nasa.gov/EPIC/api/natural/images?api_key=enVBotOAx9zrgow1IOtOgXDUHIKPm7zQMfVlgCXT`;
+const API_KEY = process.env.API_KEY;
+
+const url = `https://api.nasa.gov/EPIC/api/natural/images?api_key=${API_KEY}`;
 
 export default function App() {
 
