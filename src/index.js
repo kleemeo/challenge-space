@@ -2,11 +2,11 @@ import { useEffect, useState } from 'preact/hooks';
 import './style';
 import Card from './components/Card';
 
-const API_KEY = process.env.API_KEY;
-
-const url = `https://api.nasa.gov/EPIC/api/natural/images?api_key=${API_KEY}`;
 
 export default function App() {
+  const API_KEY = process.env.REACT_APP_API_KEY;
+  
+  const url = `https://api.nasa.gov/EPIC/api/natural/images?api_key=${API_KEY}`;
 
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
