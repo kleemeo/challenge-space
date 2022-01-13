@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Spacestagram</h1>
+        <h1>Spacestagram - Daily 'Blue Marble'</h1>
         <p>These images were taken by NASA's Earth Polychromatic Imaging Camera (EPIC) camera onboard the NOAA DSCOVR spacecraft</p>
         <div className='checkbox-label'>
           <label htmlFor="">Show your liked posts </label>
