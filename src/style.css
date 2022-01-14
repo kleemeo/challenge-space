@@ -68,6 +68,7 @@ section {
 }
 
 .card {
+  max-width: 400px;
   font-family: 'Be Vietnam Pro', sans-serif;
   background-color: var(--main-grey);
   padding: 1rem;

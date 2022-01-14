@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Spacestagram - Daily 'Blue Marble'</h1>
+        <h1>Spacestagram - Blue Marble</h1>
         <p>These images were taken by NASA's Earth Polychromatic Imaging Camera (EPIC) camera onboard the NOAA DSCOVR spacecraft</p>
         <div className='checkbox-label'>
           <label htmlFor="">Show your liked posts </label>
@@ -33,7 +33,7 @@ export default function App() {
       <main>
         {isLoading ? (<div className="loading"><i class="fas fa-circle-notch fa-spin"></i></div>) :
           <section class='main-grid'>
-            {data.slice(0, 9)
+            {data
               .filter(item => showFilter ? localStorage.getItem(item.identifier) === 'true' : item)
               .map(item => (item.length === 0 ? <p>Nothing here</p> :
                 <Card key={item.identifier} id={item.identifier} date={item.date} image={item.image} />
